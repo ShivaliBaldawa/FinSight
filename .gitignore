@@ -1,0 +1,55 @@
+### Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.cache/
+
+### Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+### OS / Editor
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+
+### Logs
+*.log
+logs/
+
+### dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+### Data outputs
+data/
+datasets/
+output/
+outputs/
+tmp/
+temp/
+
+### Secrets
+gcp-key.json
